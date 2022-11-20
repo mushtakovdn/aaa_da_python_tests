@@ -36,3 +36,14 @@ python -m pytest tests/test_issue_04.py -v > tst_results/issue_04.txt
 ```
 
 ## issue 5
+Тестирование функции what_is_year_now с генерацией отчета в coverage.
+
+Для запуска теста находясь в корне репозитория запустите в терминале команду:
+```
+python -m pytest tests/test_issue_05_pytest.py --cov=what_is_year_now --cov-report html > tst_results/issue_05_pytest.txt
+```
+Результат тестирования сохранится в :
+- ./tst_results/issue_05_pytest.txt (в текстовом виде)
+- ./htmlcov (html report)
+
+*Отчет показывает, что модуль what_is_year_now покрыт всего лишь на 83%. Однако при этом сама тестируемая функция покрыта на 100%.Не покрыт код из \_\_main__*
