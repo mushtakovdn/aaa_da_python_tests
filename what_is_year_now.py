@@ -22,7 +22,6 @@ def what_is_year_now() -> int:
     """
     with urllib.request.urlopen(API_URL) as resp:
         resp_json = json.load(resp)
-        print(resp_json)
 
     datetime_str = resp_json['currentDateTime']
     if datetime_str[YMD_SEP_INDEX] == YMD_SEP:
@@ -36,10 +35,8 @@ def what_is_year_now() -> int:
 
 
 if __name__ == '__main__':
-    # year = what_is_year_now()
+    year = what_is_year_now()
     exp_year = 2019
-    resp_json = json.load({'sds': '2019-03-01'})
-    print(resp_json)
 
     print(year)
     assert year == exp_year

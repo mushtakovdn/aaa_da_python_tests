@@ -2,7 +2,7 @@
 platform darwin -- Python 3.9.7, pytest-6.2.4, py-1.10.0, pluggy-0.13.1 -- /usr/local/anaconda3/bin/python
 cachedir: .pytest_cache
 rootdir: /Users/d.mushtakov/Desktop/Обучение/ААА/1_сем/Python_DA/aaa_da_python_tests
-plugins: anyio-2.2.0
+plugins: anyio-2.2.0, cov-4.0.0
 collecting ... collected 4 items
 
 tests/test_issue_04.py::test_empty_vector PASSED                         [ 25%]
@@ -10,4 +10,4 @@ tests/test_issue_04.py::test_vector_by_list PASSED                       [ 50%]
 tests/test_issue_04.py::test_vector_by_arguments PASSED                  [ 75%]
 tests/test_issue_04.py::test_numeric_vector PASSED                       [100%]
 
-============================== 4 passed in 0.04s ===============================
+============================== 4 passed in 0.03s ===============================
