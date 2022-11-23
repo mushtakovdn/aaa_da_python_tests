@@ -1,0 +1,14 @@
+(base) d.mushtakov@d-mushtakov aaa_da_python_tests % python -m unittest tests/test_issue_03.py -v
+test_empty_vector (tests.test_issue_03.TestOHE)
+Проверяет выброс исключения при отсутствии переменных ... ok
+test_numeric_vector (tests.test_issue_03.TestOHE)
+Проверка боевого сценария, когда все отрабатывает хорошо. ... ok
+test_vector_by_arguments (tests.test_issue_03.TestOHE)
+Проверка боевого сценария, когда все отрабатывает хорошо. ... ok
+test_vector_by_list (tests.test_issue_03.TestOHE)
+Проверка боевого сценария, когда все отрабатывает хорошо. ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
